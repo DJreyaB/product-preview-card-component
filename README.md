@@ -27,15 +27,22 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
+echo "# product-preview-card-component" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DJreyaB/product-preview-card-component.git
+git push -u origin main
 ### Screenshot
 
 #### Mobile 
 
-![](images\Screenshot 2023-02-18 at 23-54-56 Frontend Mentor Product preview card component.png)
+![](images/Screenshot%202023-02-18%20at%2023-54-56%20Frontend%20Mentor%20Product%20preview%20card%20component.png)
 
 #### Desktop
 
-![](images\Screenshot 2023-02-18 at 23-55-59 Frontend Mentor Product preview card component.png)
+![](images/Screenshot%202023-02-18%20at%2023-55-59%20Frontend%20Mentor%20Product%20preview%20card%20component.png)
 
 <!-- ### Links
 
