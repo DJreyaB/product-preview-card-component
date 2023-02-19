@@ -7,16 +7,14 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  <!-- - [Links](#links) -->
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+<!-- - [Acknowledgments](#acknowledgments) -->
 
 ## Overview
 
@@ -27,13 +25,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-echo "# product-preview-card-component" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/DJreyaB/product-preview-card-component.git
-git push -u origin main
+
 ### Screenshot
 
 #### Mobile 
@@ -65,9 +57,10 @@ git push -u origin main
 
 
 ```html
-<picture>
-  <source>
-</picture>
+    <picture>
+      <source media="(min-width: 555px)" srcset="images/image-product-desktop.jpg">
+      <img src="images/image-product-mobile.jpg" alt="image of golden perfume bottle laying on a white surface surrounded by green thin leaves">
+    </picture>
 ```
 ```css
 
